@@ -48,18 +48,18 @@
     
             <div class="main-content"> 
                 <header>
-                    <h3>Edit Data</h3>
+                    <h3>Tampil Data</h3>
                 </header>
                 <main>
-                    <div class="edit">Pilih data yang ingin diedit:
+                    <div class="edit">Pilih data yang ingin ditampilkan:
                         <ul>
                             <li>
-                                <a href="editCust.php">
+                                <a href="tampilCust.php">
                                     <span class="title">Customer</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="editProd.php">
+                                <a href="tampilProd.php">
                                     <span class="title">Produk</span>
                                 </a>
                             </li>
