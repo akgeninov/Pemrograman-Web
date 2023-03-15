@@ -1,5 +1,5 @@
 <?php 
-    include('koneksi.php');
+    include('koneksi.php')
 ?>
     
     <!DOCTYPE html>
@@ -47,24 +47,28 @@
             </div>
     
             <div class="main-content"> 
-                <header>
-                    <h3>Edit Data</h3>
-                </header>
                 <main>
-                    <div class="edit">Pilih data yang ingin diedit:
-                        <ul>
-                            <li>
-                                <a href="editCust.php">
-                                    <span class="title">Customer</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="editProd.php">
-                                    <span class="title">Produk</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                <header>
+                    <h3>Edit Data Produk</h3>
+                </header>
+                    Pilih jenis edit:
+                    <ul>
+                        <li>
+                            <a href="tambahProd.php">
+                                <span class="title">Tambah Data</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ubahProd.php">
+                                <span class="title">Ubah Data</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="hapusProd.php">
+                                <span class="title">Hapus Data</span>
+                            </a>
+                        </li>
+                    </ul>
                 </main>
             </div>
     
